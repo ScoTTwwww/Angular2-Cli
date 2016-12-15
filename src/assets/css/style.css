@@ -1233,3 +1233,13 @@ textarea.form-control {
 		font-size: 18px;
 	}
 }
+
+.fontStyle {
+	font: 20px "微軟正黑體", Arial;
+}
+.fontStyleIndex {
+	font: 25px "微軟正黑體", Arial;
+}
+.font {
+	font: 15px "微軟正黑體", Arial;
+}

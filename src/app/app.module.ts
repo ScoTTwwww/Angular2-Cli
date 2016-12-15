@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard';
 import { ScottRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

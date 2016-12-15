@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard.component';
 import { IndexComponent } from './index/index.component';
 
 import { AboutComponent } from '../about';
+import { ContactComponent } from '../contact';
 
 export const DashboardRouting = RouterModule.forChild([
   {
@@ -17,6 +18,10 @@ export const DashboardRouting = RouterModule.forChild([
       {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
       },
     ]
   }

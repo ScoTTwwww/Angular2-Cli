@@ -8,6 +8,8 @@ import { DashboardModule } from './dashboard';
 import { ScottRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ShopsComponent } from './shops/shops.component';
+import { MenuComponent } from './add/menu/menu.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     AboutComponent,
     ContactComponent,
+    ShopsComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
